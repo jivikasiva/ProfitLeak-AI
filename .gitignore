@@ -1,0 +1,24 @@
+Python
+
+pycache/ .py[cod] .pyd .Python .venv/ venv/ env/ ENV/ .pytest_cache/
+.mypy_cache/
+
+Secrets and local configuration
+
+.env .env. !.env.example .pem *.key
+
+Jupyter and editor files
+
+.ipynb_checkpoints/ .vscode/ .idea/
+
+OS files
+
+.DS_Store Thumbs.db desktop.ini
+
+Local data: do not publish source datasets unless you have permission
+
+data/raw/* !data/raw/.gitkeep
+
+Optional generated files / local exports
+
+.log .tmp
